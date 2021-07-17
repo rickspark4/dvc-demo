@@ -17,6 +17,7 @@ install the requirements
 pip install -r requirements.txt
 
 ```
+
 git init
 
 dvc init
@@ -32,6 +33,13 @@ git remote add origin https://github.com/rickspark4/dvc-demo.git
 git branch -M main
 
 git push origin main
+
+one liner update 
+```bash
+git add . && git commit -m "msg"
+```
+
+
 
 
 
