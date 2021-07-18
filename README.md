@@ -38,7 +38,9 @@ one liner update
 ```bash
 git add . && git commit -m "msg"
 ```
-
+```bash
+dvc repro
+```
 
 
 
