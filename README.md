@@ -41,6 +41,9 @@ git add . && git commit -m "msg"
 ```bash
 dvc repro
 ```
+dvc metrics show
+
+dvc metrics diff
 
 
 
