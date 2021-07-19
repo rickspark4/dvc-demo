@@ -1,4 +1,6 @@
 
+#it is important to write "test" in def function
+
 import pytest
 
 class NotInRange(Exception):
