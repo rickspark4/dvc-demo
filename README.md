@@ -45,14 +45,32 @@ dvc metrics show
 
 dvc metrics diff
 
-tox
-
-pip install -e . 
-
-
-command to create library to share
+tox command -
 ```bash
+tox
+```
+
+for rebuilding -
+```bash
+tox -r 
+```
+
+pytest command
+```bash
+pytest -v
+```
+
+
+setup commands -
+```bash
+pip install -e . 
+```
+
+
+build your own package commands-
+```bash 
 python setup.py sdist bdist_wheel
+
 ```
 
 
