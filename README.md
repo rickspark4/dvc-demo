@@ -45,6 +45,20 @@ dvc metrics show
 
 dvc metrics diff
 
+tox
+
+pip install -e . 
+
+
+command to create library to share
+```bash
+python setup.py sdist bdist_wheel
+```
+
+
+
+
+
 
 
 
